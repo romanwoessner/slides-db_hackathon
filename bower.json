@@ -1,0 +1,29 @@
+{
+  "name": "slides-db_hackathon",
+  "version": "0.0.1",
+  "homepage": "https://github.com/romanwoessner/slides-db_hackathon",
+  "authors": [
+    "roman.woessner@disy.net"
+  ],
+  "description": "DB Explorer",
+  "main": "index.html",
+  "keywords": [
+    "Deutsche Bahn",
+    "DB",
+    "explorer",
+    "attractions",
+    "disy"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "~3.0.0"
+  }
+}

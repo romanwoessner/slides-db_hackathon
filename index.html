@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css" />
+  <link rel="stylesheet" href="bower_components/reveal.js/css/theme/black.css" />
+  <!--Add support for earlier versions of Internet Explorer -->
+  <!--[if lt IE 9]>
+  <script src="bower_components/reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h1>DB Explorer</h1>
+        <h3></h3>
+        <i>Adrian, Roman, Viktorija <br />(Team One)</i>
+      </section>
+      <section>
+        <h2>Idee</h2>
+        <section>
+          <img data-src="img/ice3.jpeg" width="700px">
+        </section>
+        <section>
+          <img data-src="img/hohenzollern.jpeg" width="700px">
+        </section>
+        <section>
+          <p class="fragment highlight-blue">Man fragt sich...</h3>
+          <p class="fragment">Was sehe ich da am Fenster?</p>
+          <p class="fragment">Wann lohnt es sich wieder raus zu schauen?</p>
+          <p class="fragment">Gibt es besonders wertvolle Bahnstrecken?</p>
+        </section>
+      </section>
+      <section>
+        <h2>Datengrundlage</h2>
+        <section>
+          <img data-src="img/railroad_network.png" width="400px" >
+          <p>Streckennetz</p>
+        </section>
+        <section>
+          <img data-src="img/tourist_attractions.png" width="400px" >
+          <p>OSM tourist attractions</p>
+        </section>
+        <section>
+          <img data-src="img/wordcloud.png" width="500px" >
+          <p>weitere Quellen</p>
+        </section>
+      </section>
+      <section>
+        <h2>Analyse</h2>
+        <section>
+          Wann ist ein Objekt aus der Bahn sichtbar?
+        </section>
+        <section>
+          <p class="fragment highlight-green">Entfernung</p>
+          <p class="fragment highlight-green">Blickwinkel</p>
+          <p class="fragment highlight-green">Geschwindigkeit</p>
+          <p class="fragment highlight-blue">Topographie</p>
+          <p class="fragment highlight-blue">Witterungsverhältnisse</p>
+          <p class="fragment highlight-blue">Tageszeit</p>
+          <p class="fragment grow">Verknüpfung der Sichtbarkeit eines Objektes mit einem Streckenabschnitt</p>
+        </section>
+        <section>
+          <img data-src="img/attractions_example1.png" >
+        </section>
+        <section>
+          <img data-src="img/attractions_example2.png" >
+        </section>
+      </section>
+      <section>
+        <h2>Mobile Anwendung</h2>
+      </section>
+      <section>
+        <img data-src="img/disy.png" >
+
+        <p>Wir wünschen eine erlebnisreiche Fahrt</p>
+      </section>
+    </div>
+  </div>
+  <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+  <script src="bower_components/reveal.js/js/reveal.js"></script>
+  <script>
+    // Required, even if empty.
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      slideNumber: true
+    });
+  </script>
+</body>
+
+</html>
